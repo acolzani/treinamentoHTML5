@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p id="demo"></p>
+
+    <script>
+var dia;
+switch (new Date().getDay()) {
+    case 0:
+        dia = "Domingo";
+        break;
+    case 1:
+        dia = "Segunda";
+        break;
+    case 2:
+        dia = "Terca";
+        break;
+    case 3:
+        dia = "Quarta";
+        break;
+    case 4:
+        dia = "Quinta";
+        break;
+    case 5:
+        dia = "Sexta";
+        break;
+    case  6:
+        dia = "Sabado";
+}
+document.getElementById("demo").innerHTML = "Dia da semana: " + dia;
+</script>
+
+</body>
+
+</html>
